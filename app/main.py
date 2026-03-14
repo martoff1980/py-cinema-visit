@@ -5,9 +5,9 @@ from app.people.cinema_staff import Cleaner
 
 
 def cinema_visit(
-    customers: Customer,
+    customers: list[dict],
     hall_number: int,
-    cleaner: Customer,
+    cleaner: str,
     movie: str
 ) -> None:
     customer_objects = []
